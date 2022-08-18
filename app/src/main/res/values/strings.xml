@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Net Stats</string>
+
+    <string-array name="network_types">
+        <item>All</item>
+        <item>Data</item>
+        <item>Wifi</item>
+    </string-array>
+
+    <string name="date">Date</string>
+</resources>

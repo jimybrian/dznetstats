@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/statsFragment"
+    android:id="@+id/navigation_main">
+
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="com.dzworks.dznetstats.StatsFragment"
+        tools:layout="@layout/support_simple_spinner_dropdown_item"
+        android:label="@string/app_name" />
+
+</navigation>
